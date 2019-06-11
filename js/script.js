@@ -25,7 +25,7 @@ $("#button1").click(function() {
 
 
     $.ajax({
-        url:"http://api.openweathermap.org/data/2.5/weather?q="+userInput+"&APPID=083239ab6de14c2379d19581628b2c16",
+        url:"https://api.openweathermap.org/data/2.5/weather?q="+userInput+"&APPID=083239ab6de14c2379d19581628b2c16",
         type: "GET",
         success: function(response) {
             weatherResult = response.weather[0].main;
