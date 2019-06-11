@@ -47,7 +47,7 @@ $("#button1").click(function() {
             }else if(weatherResult === "Mist"){
                 $("#weather").append("<img src = 'https://image.flaticon.com/icons/png/512/130/130712.png'>")
             }
-            $("#button2").show();
+            // $("#button2").show();
             return weatherResult
         }
 
